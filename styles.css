@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --color1: #EFFFFD; 
+    --color2: #F3F1F5;
+    --color3: #FAF3F3; 
+
+}
+
+a {
+    text-decoration: none; 
+}
+
+.navbar {
+    
+    background-color: var(--color1);
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+.navbar > li > a {
+    padding: 50px;
+    color: black;
+    font-size: large;
+}
+
+.navbar > li > a:hover {
+    font-size: medium;
+}
+
+.navbar > li {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.picture {
+    padding-left: 35%;
+}
+
+img {
+    height: 800px;
+}
+
+section {
+    background-color: var(--color3);
+}
+
+.tododespuesdelnav {
+    background-color: var(--color3);
+    max-height: 2500px;
+}
+
+.texto {
+    opacity: 0;
+    font-size: 15px;
+}
+
+#Inicio {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#Inicio:hover {
+    background-color: var(--color1);
+}
+
+#Inicio:hover .texto {
+    display: inline-block;
+    opacity: 100;
+    font-size: 20px;
+    transition: 1s opacity;
+}
+
+.Quiensoy {
+    font-weight: 100;
+    font-size: 50px;
+    opacity: 100;
+}
+    
+
+#Hobbies {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#Hobbies:hover {
+    background-color: var(--color1);
+}
+
+.Hobbies {
+    font-weight: 100;
+    font-size: 50px;
+}
+
+#Hobbies:hover .texto {
+    display: inline-block;
+    opacity: 100;
+    font-size: 20px;
+    transition: 1s opacity;
+    }
+
+#Pasion {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#Pasion:hover {
+    background-color: var(--color1);
+}
+
+#Pasion:hover .texto {
+    display: inline-block;
+    opacity: 100;
+    font-size: 20px;
+    transition: 1s opacity;
+    }
+
+.Pasion {
+    font-weight: 100;
+    font-size: 50px;
+}
+
+
+
+#Contacto {
+    text-align: center;
+    padding-top: 100px;
+    height: 800px;
+}
+
+#Contacto:hover {
+    background-color: var(--color1);
+}
+
+#Contacto > form {
+    opacity: 0;
+}
+
+#Contacto > .Location {
+    opacity: 0;
+}
+
+#Contacto:hover form {
+    display: block;
+    opacity: 100;
+    font-size: 20px;
+    transition: 1s opacity;
+    width: 40%;
+    text-align: left;
+}
+
+#Contacto:hover .Location {
+    display: inline-block;
+    opacity: 100;
+    transition: 1s opacity;
+    width: 40%;
+    height: 600px;
+    border-radius: 20%;
+}
+.contacinfo {
+    opacity: 0;
+}
+
+
+#Contacto:hover .contacinfo {
+    display: inline-block;
+    opacity: 100;
+    font-size: 20px;
+    transition: 1s opacity;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.Contacto {
+    font-weight: 100;
+    font-size: 50px;
+}
+
